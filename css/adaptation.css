@@ -1,0 +1,62 @@
+@media (max-width: 1250px) {
+    .photo, .photo>img, .photo::before, .photo::after{
+        width: 100px;
+        height: 100px;
+    }
+    .jt{
+        font-size: 15px;
+    }
+    .rang-text, .phone, .email, .brith{
+        font-size: 10px;
+    }
+    .rang-text>span {
+        padding: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .icon, .icon>img{
+        width: 12px;
+        height: 12px;
+    }
+    .cc{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .main-page-content-title{
+        font-size: 15px;
+    }
+    .main-page-footer{
+        font-size: 4px;
+    }
+    
+
+}
+
+@media (max-width: 897px){
+    .cc{
+        font-size: 7px;
+        line-height: 8px;
+    }
+    .jt{
+        font-size: 11px;
+    }
+    .rang-text, .phone, .email, .brith{
+        font-size: 8px;
+    }
+    .photo, .photo>img, .photo::before, .photo::after{
+        width: 85px;
+        height: 85px;
+    }
+
+    .photo::after, .photo::before{
+        border-width: 3px;
+    }
+}
+
+@media (max-width: 683px){
+    .block-screen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
